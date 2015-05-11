@@ -1,0 +1,259 @@
+@CHARSET "ISO-8859-1";
+html{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #C6B8CE;
+	font: 11px/1.55 Tahoma,Helvetica,sans-serif;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+img{
+	border: 0;
+}
+
+.banner{
+	background: url("../images/4.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #C6B8CE;
+    box-shadow: 0 1px 0 #FFFFFF;
+    -webkit-box-shadow: 0 1px 0 #FFFFFF;
+	-moz-box-shadow: 0 1px 0 #FFFFFF;
+	-o-box-shadow: 0 1px 0 #FFFFFF;
+    height: 66px;
+    left: 0;
+    position: inherit;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.page{
+	background-color: #C6B8CE;
+	width: 1024px;
+	vertical-align: middle;
+	position:absolute;
+	margin-left:15%;
+	box-shadow: -3px 0px 8px #888888;
+	-webkit-box-shadow: -3px 0px 8px #888888;
+	-moz-box-shadow: -3px 0px 8px #888888;
+	-o-box-shadow: -3px 0px 8px #888888;
+	top:0;
+}
+
+.logo{
+	background: url("../images/4.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #C4C4C4;
+    box-shadow: 0 1px 0 #FFFFFF;
+    -webkit-box-shadow: 0 1px 0 #FFFFFF;
+	-moz-box-shadow: 0 1px 0 #FFFFFF;
+	-o-box-shadow: 0 1px 0 #FFFFFF;
+	float: left;
+	width: 100%;
+	height: 66px;
+	text-align: left;
+}
+.logo h1{
+	float: left;
+	font-weight: 400;
+	font-size: 35px;
+	color: #353535;
+	margin-top:0px;
+	margin-left: 4px;
+}
+
+.logo h2{
+	float: left;
+	font-weight: 400;
+	font-size: 20px;
+	color: #6B6B6B;
+	margin-top:15px;
+}
+
+.block{
+height: 3px;
+clear: both;
+}
+
+/****NAV****/
+.nav{
+background: -moz-linear-gradient(center top , #FFFFFF 1%, #F3F3F3 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0 1px 0 #FFFFFF;
+	float:left;
+	width:17%;
+	display:block;
+	margin-left: 2%;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+.nav ul{
+	list-style: none;
+	top:0;
+	float:left;
+	width: 100%;
+	margin-left: -23%;
+}
+
+.nav li{
+	clear:both;
+	padding: 10px;
+	height: 20px;
+	box-shadow: -2px 0px 8px #888888;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+#nav1{
+	background-color: #353535;
+	color: white;
+}
+#nav2{
+	background-color: #353535;
+	color: white;
+}
+#nav3{
+	background-color: #353535;
+	color: white;
+}
+.nav li a, a:HOVER{
+	text-decoration: none;
+	color: white;
+}
+
+
+/****LOGIN OPTIONS****/
+.loginoptions{
+	float:left;
+	margin-top: 26px;
+}
+.loginoptions ul{
+	list-style: none;
+	top:0;
+}
+
+.loginoptions li{
+	clear:both;
+	padding: 10px;
+	height: 20px;
+	box-shadow: -2px 0px 8px #888888;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.loginoptions li a, a:HOVER{
+	text-decoration: none;
+	color: white;
+	
+}
+/****CONTENT****/
+.content{
+	text-align: left;
+	float:left;
+	margin-top: 10px;
+	width: 60%;
+	min-height: 400px;
+}
+
+.content h1{
+	clear:both;
+border-bottom: 3px solid #E81962;
+text-align: left;
+margin-left: 10px;
+margin-right: 10px;
+font-weight: 500;
+}
+
+.content p{
+	font-size: 12px;
+	text-align: justify;
+	padding-left: 10px;
+}
+
+.content ul{
+	list-style: none;
+	top:0;
+}
+
+.content li{
+	float: left;
+	padding: 10px;
+	height: 220px;
+	box-shadow: -2px 0px 8px #888888;
+	font-size: 15px;
+	margin-bottom: 5px;
+	width: 220px;
+}
+.content li img{
+	max-width: 200px;
+	max-height: 200px;
+}
+.content li a, a:HOVER{
+	text-decoration: none;
+}
+
+.content h2{
+	font-weight: 400;
+	border-bottom:1px solid grey;
+	margin-left: 10px;
+}
+/****FOOTER****/
+.footer{
+background: url("../images/3-1.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #C4C4C4;
+    box-shadow: 0 1px 0 #FFFFFF;
+    -webkit-box-shadow: 0 1px 0 #FFFFFF;
+	-moz-box-shadow: 0 1px 0 #FFFFFF;
+	-o-box-shadow: 0 1px 0 #FFFFFF;
+clear: both;
+text-align: left;
+}
+
+.footer-partition{
+	border-bottom: 3px solid #E81962;
+}
+
+.footer h2{
+	font-weight: 400;
+	border:0;
+}
+
+.footerbox{
+	float: left;
+	margin-left: 40px;
+	width: 26%;
+}
+
+.fmobile{
+	background: url("../images/iconmobile.png") no-repeat scroll 0 center transparent;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.fmail{
+	background: url("../images/iconmail.png") no-repeat scroll 0 center transparent;
+}
+
+.minilogo{
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.footer li{
+	border-bottom: 1px dashed #AFB7BF;
+    color: #1D252A;
+    font-size: 13px;
+    height: 50px;
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.footerbottom{
+	text-align: center;
+	font-weight: 400;
+	border:0;
+	clear:both;
+}
